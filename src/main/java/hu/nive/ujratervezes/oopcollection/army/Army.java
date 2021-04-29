@@ -1,9 +1,16 @@
 package hu.nive.ujratervezes.oopcollection.army;
 
-public class Army {
+import java.util.List;
 
-    public addUnit(MilitaryUnit militaryUnit){
-        MilitaryUnit militaryUnit1 = new MilitaryUnit();         
+public class Army {
+    List<MilitaryUnit> armyList;
+
+    public void addUnit(MilitaryUnit militaryUnit){
+        armyList.add(militaryUnit);
     }
+
+
+
+
 
 }
